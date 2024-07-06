@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Panel</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net462</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="-" />
+    <None Remove="---" />
+    <EmbeddedResource Include="-" LogicalName="&#x3;" />
+    <EmbeddedResource Include="---" LogicalName="&#xD;&#xA;&#x6;&#x4;&#x3;" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="Newtonsoft.Json" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="Newtonsoft.Json.Schema" />
+    <Reference Include="System.Web.Http" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="protobuf-net" />
+    <Reference Include="System.Xml" />
+    <Reference Include="IPLocator" />
+    <Reference Include="System.Management" />
+    <Reference Include="GuiLib" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MetroSet UI" />
+    <Reference Include="WindowsFirewallHelper" />
+    <Reference Include="Pluralsight.Crypto" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="RestSharp" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+</Project>
